@@ -1,0 +1,16 @@
+{
+  "name": "douban-trailer",
+  "version": "1.0.0",
+  "description": "a trailer that data source from douban-api",
+  "main": "server/index.js",
+  "repository": "git@github.com:capricornLiux/douban-trailer.git",
+  "author": "liuxin <784532927@qq.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "koa": "^2.5.0"
+  },
+  "scripts": {
+    "start": "node server/index.js"
+  }
+}
