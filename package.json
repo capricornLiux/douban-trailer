@@ -9,7 +9,8 @@
   "private": false,
   "dependencies": {
     "ejs": "^2.5.7",
-    "koa": "^2.5.0"
+    "koa": "^2.5.0",
+    "pug": "^2.0.0-rc.4"
   },
   "scripts": {
     "start": "node server/index.js"
