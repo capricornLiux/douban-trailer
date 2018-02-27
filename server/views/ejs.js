@@ -1,3 +1,4 @@
+module.exports = `
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,13 +15,14 @@
         <div class="row">
             <div class="col-md-8">
                 <h1>hello</h1>
-                <p>world</p>
+                <p><%= name %></p>
             </div>
             <div class="col-md-4">
-                <p>html</p>
+                <p><%= address %></p>
             </div>
         </div>
     </div>
     
 </body>
 </html>
+`
