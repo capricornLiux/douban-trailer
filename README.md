@@ -8,7 +8,7 @@
     * script.pug
 
 index.pug
-```
+```pug
 extends ./layouts/default
 
 block title
@@ -25,7 +25,7 @@ block content
 ```
 
 default.pug
-```
+```pug
 doctype html
 html(lang="en")
 head
@@ -40,12 +40,12 @@ body
 ```
 
 style.pug
-```
+```pug
 link(rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css")
 ```
 
 script.pug
-```
+```pug
 script(src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.bundle.js")
 script(src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js")
 ```
